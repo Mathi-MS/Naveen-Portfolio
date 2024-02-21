@@ -209,6 +209,7 @@ section#banner .profile-back{
     position: absolute;
     bottom: 0px;
     right:4%;
+    animation:popup infinite 5s linear;
 }
 section#banner .profile{
     position: absolute;
@@ -259,6 +260,7 @@ section#about{
     padding: 100px 0px;
     background-repeat:no-repeat;
     background-size: 100% 100%;
+    overflow: hidden;
 }
 section#about .about-content{
     width: 92%;
@@ -290,8 +292,12 @@ section#about .about-border{
 }
 section#about .about-ring{
     margin: -15px 0px 0px 0px;
-
+    animation:scrollright infinite linear 15s;
+    position: relative;
 }
+/* section#about .about-ring img{
+    animation:scrollright infinite linear 5s;
+} */
 /* ------------ */
 #education{
     position: relative;
@@ -1195,4 +1201,29 @@ footer .footer-logo img {
 
 @media(max-width:320px) {
 
+}
+@keyframes popup {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes scrollright {
+    0%{
+        rotate: 0deg;
+        left: 0px;
+    }
+    50%{
+        /* rotate:360deg; */
+        left: 90%;
+    }
+    100%{
+        rotate: 0deg;
+        left: 0px;
+    }
 }
