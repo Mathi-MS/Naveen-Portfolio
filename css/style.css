@@ -272,7 +272,7 @@ section#about .about-content{
 }
 section#about .about-content h2{
    color: white;
-   border-bottom:20px solid #fd9570;
+   border-bottom:10px solid #fd9570;
    width: max-content;
    padding-right:80px;
    padding-bottom: 10px;
@@ -314,7 +314,7 @@ section#about .about-ring{
 }
 #education .education-content .education-left h2{
    color: white;
-   border-bottom:20px solid #fd9570;
+   border-bottom:10px solid #fd9570;
    width: max-content;
    padding-right:80px;
    padding-bottom: 10px;  
@@ -537,6 +537,7 @@ footer .footer-content h3{
     font-family:"Poppins-light";
     font-size: 25px;
     text-transform: uppercase;
+    letter-spacing: 5px;
 }
 footer .footer-content .box{
     display: flex;
@@ -764,7 +765,7 @@ section#about .about-content {
 }
 section#about .about-content h2 {
     color: white;
-    border-bottom:10px solid #fd9570;
+    border-bottom:5px solid #fd9570;
     width: max-content;
     padding-right: 0px;
     padding-bottom: 10px;
@@ -786,7 +787,7 @@ section#about .about-content h2 {
 }
 #education .education-content .education-left h2 {
     color: white;
-    border-bottom: 10px solid #fd9570;
+    border-bottom: 5px solid #fd9570;
     width: max-content;
     padding-right: 0px;
     padding-bottom: 10px;
@@ -803,7 +804,7 @@ section#about .about-content h2 {
 #education .education-content .education-right h2 {
     color: white;
     text-align: center;
-    border-bottom: 10px solid #fd9570;
+    border-bottom: 5px solid #fd9570;
     width: max-content;
     margin: 0px auto;
     padding: 10px 0px;
@@ -988,6 +989,8 @@ footer .footer-logo img {
         font-family: "Poppins-light";
         font-size: 20px;
         text-transform: uppercase;
+        letter-spacing: 3px;
+
     }
     #projects {
         padding:60px 0px;
@@ -1008,7 +1011,7 @@ footer .footer-logo img {
         text-align: center;
         margin-bottom: 40px;
         font-size: 25px;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
     }
     #content {
         position: relative;
@@ -1137,6 +1140,15 @@ footer .footer-logo img {
         font-family: Poppins-medium;
         text-decoration: none;
         padding-top: 16px;
+    }
+    #content .content-content p {
+        color: #393939;
+        position: absolute;
+        bottom: 3%;
+        text-align: center;
+        display: block;
+        width: 100%;
+        font-size: 22px;
     }
 }
 
